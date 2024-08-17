@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fifo_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fifo_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="140001fs"></ZoomEndTime>
+      <Cursor1Time time="6340fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="164"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject type="array" fp_name="/fifo_tb/wdata">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/wrst_n">
+      <obj_property name="ElementShortName">wrst_n</obj_property>
+      <obj_property name="ObjectShortName">wrst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/rrst_n">
+      <obj_property name="ElementShortName">rrst_n</obj_property>
+      <obj_property name="ObjectShortName">rrst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/wclk">
+      <obj_property name="ElementShortName">wclk</obj_property>
+      <obj_property name="ObjectShortName">wclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/rclk">
+      <obj_property name="ElementShortName">rclk</obj_property>
+      <obj_property name="ObjectShortName">rclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/winc">
+      <obj_property name="ElementShortName">winc</obj_property>
+      <obj_property name="ObjectShortName">winc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/rinc">
+      <obj_property name="ElementShortName">rinc</obj_property>
+      <obj_property name="ObjectShortName">rinc</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fifo_tb/rdata">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/wfull">
+      <obj_property name="ElementShortName">wfull</obj_property>
+      <obj_property name="ObjectShortName">wfull</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_tb/rempty">
+      <obj_property name="ElementShortName">rempty</obj_property>
+      <obj_property name="ObjectShortName">rempty</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fifo_tb/DSIZE">
+      <obj_property name="ElementShortName">DSIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DSIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fifo_tb/ASIZE">
+      <obj_property name="ElementShortName">ASIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ASIZE[31:0]</obj_property>
+   </wvobject>
+</wave_config>
